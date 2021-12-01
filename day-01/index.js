@@ -16,10 +16,10 @@ function main() {
 
     let increases = 0;
     for(let i=3; i<measurements.length; i++) {
-        let window1Sum = measurements[i-1] + measurements[i-2] + measurements[i-3];
-        let window2Sum = measurements[i] + measurements[i-1] + measurements[i-2];
+        let windowIngress = measurements[i];
+        let windowEgress = measurements[i-3];
 
-        if (window2Sum > window1Sum) {
+        if (windowIngress > windowEgress) {
             increases++;
         }
     }
