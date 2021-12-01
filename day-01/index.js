@@ -14,8 +14,6 @@ function main() {
         readFile(inputFilePath)
     )
 
-    console.log(measurements)
-
     let increases = 0;
     for(let i=3; i<measurements.length; i++) {
         let window1Sum = measurements[i-1] + measurements[i-2] + measurements[i-3];
