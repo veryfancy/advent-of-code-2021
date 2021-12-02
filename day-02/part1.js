@@ -22,8 +22,6 @@ function main() {
         readFile(inputFilePath)
     );
 
-    console.log(instructions);
-
     let pos = 0;
     let depth = 0;
 
