@@ -22,7 +22,8 @@
     "day-08-02": "node ./day-08/part2.js",
     "day-09-01": "node ./day-09/part1.js",
     "day-09-02": "node ./day-09/part2.js",
-    "day-10-01": "node ./day-10/part1.js"
+    "day-10-01": "node ./day-10/part1.js",
+    "day-10-02": "node ./day-10/part2.js"
   },
   "repository": {
     "type": "git",
